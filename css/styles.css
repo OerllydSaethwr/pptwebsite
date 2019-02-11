@@ -1,6 +1,5 @@
-/*!
- * Start Bootstrap - Freelancer v5.0.1 (https://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2018 Start Bootstrap
+/*
+ Note: all pictures obtained are from pixbay.com where every downloadable picture is allowed to be used unlimited.
  */
 
 body {
@@ -13,12 +12,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 400;
   font-family: 'Montserrat';
 }
 
 .Title-subpages {
-    padding-top: 10rem;
+    padding-top: 2rem;
     padding-bottom: 9rem;
 }
 
@@ -33,6 +32,120 @@ section h2 {
 }
 
 
+
+.portfolio {
+  margin-bottom: -15px;
+  padding-bottom: 5rem;
+}
+
+.portfolio .portfolio-item {
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 15px;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background-color: rgba(0,31,55,0.5);
+}
+
+.portfolio {
+  margin-bottom: -30px;
+}
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(0,31,70);
+  color: white;
+}
+
+.copyright {
+  background-color: rgba(0,31,45);
+}
+
+
+.img-fluid {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.bg0 {
+  position: relative;
+  background: url("../img/face.png") center;
+  background-size: cover;
+  padding-top: 30rem;
+  padding-bottom: 4rem; 
+}
+
+.bg1 {
+  background-color: rgba(0,31,70,0.6) !important;
+}
+
+.bg-AI {
+  position: relative;
+  background: url("../img/AI.jpg") center;
+  background-size: cover;
+  padding-top: 30rem;
+}
+
+.bg-mobiFace {
+  position: relative;
+  background: url("../img/mobifacePage0.png") center;
+  background-size: cover;
+  padding-top: 30rem;
+}
+
+.bg-play {
+    position: relative;
+    background: url("../img/example.png") center;
+    background-size:auto;
+    padding-top: 5rem;
+    padding-bottom: 14rem;
+}
+
+.bg-profile {
+    position: relative;
+    background: url("../img/profile.jpg") center;
+    background-size:cover;
+    padding-top: 5rem;
+    padding-bottom: 14rem;
+}
+
+
+
+.bg-tag {
+    background-color: deepskyblue!important
+}
+
+.text-primary {
+  color: deepskyblue!important;
+}
+
+.Title {
+    background-color: ;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.text-secondary {
+  color: rgba(0,31,55) !important;
+}
+
+.content {
+    color: rgb(0,31,55);
+}
+    
+/*below are the nav bar and the animation of it, refrence of these code: in CSS files of  https://github.com/BlackrockDigital/startbootstrap-freelancer, allowed to be be used with refrence.*/
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -70,7 +183,6 @@ section h2 {
   padding: 0.8rem;
 }
 
-/*transition animation for the nav bar, refrence of these code: in CSS files of  https://github.com/BlackrockDigital/startbootstrap-freelancer, can be used with refrence.*/
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -102,118 +214,6 @@ section h2 {
     font-size: 1.5em;
   }
 }
+/*end of navBar style*/
 
-header.masthead h1 {
-  font-size: 3rem;
-  line-height: 3rem;
-}
-
-header.masthead h2 {
-  font-size: 1.3rem;
-  font-family: 'Lato';
-}
-
-@media (min-width: 992px) {
-  header.masthead {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
-  }
-  header.masthead h1 {
-    font-size:4.75em;
-    line-height: 4rem;
-  }
-  header.masthead h2 {
-    font-size: 1.75em;
-  }
-}
-
-.portfolio {
-  margin-bottom: -15px;
-  padding-bottom: 5rem;
-}
-
-.portfolio .portfolio-item {
-  position: relative;
-  display: block;
-  max-width: 25rem;
-  margin-bottom: 15px;
-}
-
-.portfolio .portfolio-item .portfolio-item-caption {
-  -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-  opacity: 0;
-  background-color: rgba(0,31,55,0.5);
-}
-
-.portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
-}
-
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
-}
-
-@media (min-width: 576px) {
-  .portfolio {
-    margin-bottom: -30px;
-  }
-  .portfolio .portfolio-item {
-    margin-bottom: 30px;
-  }
-}
-
-
-.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: rgba(0,31,70);
-  color: white;
-}
-
-.copyright {
-  background-color: rgba(0,31,45);
-}
-
-
-.img-fluid {
-    height: 100%;
-    width: 100%;
-    
-}
-
-.bg-primary {
-  position: relative;
-  background: url("../img/face.png") no-repeat center center;
-  background-size: cover;
-  padding-top: 30rem;
-  padding-bottom: 4rem;
-  
-}
-
-.bg-tag {
-    background-color: deepskyblue!important
-}
-
-.bg-secondary {
-  background-color: rgba(0,31,70,0.82) !important;
-}
-
-.text-primary {
-  color: deepskyblue!important;
-}
-
-.Title {
-    background-color: ;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-}
-
-.text-secondary {
-  color: rgba(0,31,55) !important;
-}
-
-.content {
-    color: rgb(0,31,55);
-}
 
