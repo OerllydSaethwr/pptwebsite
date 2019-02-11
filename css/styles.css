@@ -24,21 +24,13 @@ h6 {
 
 
 section h2 {
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 2rem;
 }
 
-.proFont-h3 {
+.font-h3 {
     color: rgba(0,31,70);
 }
-
-@media (min-width: 992px) {
-  section h2 {
-    font-size: 3rem;
-    line-height: 2.5rem;
-  }
-}
-
 
 
 #mainNav {
