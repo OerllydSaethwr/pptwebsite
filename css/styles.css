@@ -19,7 +19,7 @@ h6 {
 
 .Title-subpages {
     padding-top: 10rem;
-    padding-bottom: 100rem;
+    padding-bottom: 9rem;
 }
 
 
@@ -70,6 +70,7 @@ section h2 {
   padding: 0.8rem;
 }
 
+/*transition animation for the nav bar, refrence of these code: in CSS files of  https://github.com/BlackrockDigital/startbootstrap-freelancer, can be used with refrence.*/
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -102,11 +103,6 @@ section h2 {
   }
 }
 
-header.masthead {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
-}
-
 header.masthead h1 {
   font-size: 3rem;
   line-height: 3rem;
@@ -133,6 +129,7 @@ header.masthead h2 {
 
 .portfolio {
   margin-bottom: -15px;
+  padding-bottom: 5rem;
 }
 
 .portfolio .portfolio-item {
