@@ -13,7 +13,7 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
+    <!-- Custom fonts-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -60,8 +60,20 @@
 <header class="Title-subpages">
       <div class="container">
       <h1 class="text-uppercase mb-0">MobiFace</h1>
+          <br>
+      <h4 class="content">
+    <p>Yiming and his team have gathered material and created a publicly available database of smartphone recorded selfie-style videos, intended to serve as the backbone of machine learning based face tracking algorithms.  
+    <p>The database includes a whopping 95,635 frames, with a bounding box of the face “manually labelled” on each frame. Out of hundreds of available mobile recordings 80 videos were carefully selected based on various criteria such as the ratio of the time in which the face remains in the frame, the speed of camera movement or the extremity of lighting conditions. This ensures that the selected clips provide valuable and realistic content.
+    </p> 
+    <p>Regular object tracking is cannot be sufficiently applied for software implementations that require face tracking on mobile devices due to the unpredictability of certain factors, 4 of which are highlighted in Yiming’s paper.
+    </p>
+    <p>First, face sizes in self recorded mobile videos can change drastically as both the device and its target are in constant movement, opposed to remaining still as for example desktop web cameras do. This continuous and quick change of position and location also raises the possibility of the target leaving and reentering the frame multiple times. The face tracking engine must recognise this, as well as keep up with fast camera movement. Additionally, it is not uncommon for more than one face to be present in a single frame, and it is essential that the algorithm differentiates and keeps track of each individually.
+    </p>
+    <p>It is important for researchers to receive feedback and recognition from the international academic and scientific community, which helps them with future progress. MobiFace has been accepted by 14th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2019). This annual/biannual conference takes place in France in 2019, and researchers get a chance to broadcast their findings to the community via demos, presentations and exhibitions.
+    </p>
+      </h4>
       </div>
-    </header>
+      </header>
     
 
 
@@ -108,17 +120,10 @@
       </div>
     </footer>
 
-    <div class="copyright py-4 text-center text-white">
+    <div class="copyright text-center text-white">
       <div class="container">
         <small>Copyright &copy; Group 47</small>
       </div>
-    </div>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top d-lg-none position-fixed ">
-      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
     </div>
 
 
@@ -133,7 +138,7 @@
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
 
-    <!-- Custom scripts for this template -->
+    <!-- Custom scripts -->
     <script src="js/script.js"></script>
 
   </body>
