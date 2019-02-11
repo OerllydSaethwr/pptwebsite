@@ -76,7 +76,7 @@ section h2 {
 .img-fluid {
     height: 100%;
     width: 100%;
-    
+    border-radius: 50%;
 }
 
 .bg0 {
@@ -121,7 +121,11 @@ section h2 {
     padding-bottom: 14rem;
 }
 
-
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
 
 .bg-tag {
     background-color: deepskyblue!important
