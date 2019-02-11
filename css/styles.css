@@ -31,36 +31,6 @@ section h2 {
     color: rgba(0,31,70);
 }
 
-
-
-.portfolio {
-  margin-bottom: -15px;
-  padding-bottom: 5rem;
-}
-
-.portfolio .portfolio-item {
-  position: relative;
-  display: block;
-  max-width: 25rem;
-  margin-bottom: 15px;
-}
-
-.portfolio .portfolio-item .portfolio-item-caption {
-  -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-  opacity: 0;
-  background-color: rgba(0,31,55,0.5);
-}
-
-.portfolio {
-  margin-bottom: -30px;
-}
-.portfolio .portfolio-item {
-  margin-bottom: 30px;
-}
-
-
-
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -73,7 +43,7 @@ section h2 {
 }
 
 
-.img-fluid {
+.img {
     height: 100%;
     width: 100%;
     border-radius: 50%;
@@ -148,7 +118,39 @@ section h2 {
 .content {
     color: rgb(0,31,55);
 }
-    
+
+.Home {
+    color: white;
+    font-size: 2rem;
+}
+
+
+.portfolio {
+  margin-bottom: -15px;
+  padding-bottom: 5rem;
+}
+
+.portfolio .portfolio-item {
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 15px;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background-color: rgba(0,31,55,0.5);
+}
+
+.portfolio {
+  margin-bottom: -30px;
+}
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
 /*below are the nav bar and the animation of it, refrence of these code: in CSS files of  https://github.com/BlackrockDigital/startbootstrap-freelancer, allowed to be be used with refrence.*/
 #mainNav {
   padding-top: 1rem;
@@ -168,6 +170,7 @@ section h2 {
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: white;
+  font-size: 1.2rem;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
