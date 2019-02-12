@@ -112,6 +112,14 @@ section h2 {
   padding-bottom: 15rem;
 }
 
+.bg-vision {
+    position: relative;
+    background: url("../img/vision.jpg") center;
+    background-size:cover;
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+}
+
 .center {
     margin-left: auto;
     margin-right: auto;
