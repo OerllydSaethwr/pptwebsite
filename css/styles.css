@@ -277,6 +277,17 @@ section h2 {
     color: white;
 }
 
+.mobibutton {
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 4px;
+    padding-bottom: 20px;
+}
+
+.mobibutton:hover {
+    background-color: blue;
+    transition-duration: 0.3s;
+}
 
 /*
  Picture license: all pictures obtained are from www.pixbay.com where every downloadable picture is allowed to be used unlimited.
