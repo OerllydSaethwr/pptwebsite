@@ -249,20 +249,16 @@ section h2 {
 }
 
 .play-img {
-    height: 700px;
+    width: 100%;
     display: block;
-}
-
-.col-lg-12:hover .play-img {
-    display: none;
 }
 
 .play-video {
     display: none;
 }
 
-.col-lg-12:hover .play-video {
-    display: block;
+#imageView {
+
 }
 
 
