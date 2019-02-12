@@ -1,5 +1,9 @@
 body {
-  font-family: Montserrat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    display:none;
 }
 
 h1,
@@ -8,9 +12,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
-  font-family: 'Montserrat';
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .titles {
     font-size: 4rem;
@@ -19,11 +24,15 @@ h6 {
 }
 
 .titles1 {
-    padding-bottom: 2rem;
+    padding-bottom: 7rem;
 }
 
 .subtitle {
-    padding-bottom: 12rem;
+    padding-bottom: 2rem;
+}
+
+.Title {
+    padding-top: 0;
 }
 
 .Title-subpages {
@@ -64,7 +73,7 @@ section h2 {
   background: url("../img/face.png") center;
   background-size: cover;
   padding-top: 10rem;
-  padding-bottom: 15rem; 
+  padding-bottom: 25rem;
 }
 
 .bg1 {
@@ -76,7 +85,7 @@ section h2 {
   background: url("../img/AI.jpg") center;
   background-size: cover;
   padding-top: 10rem;
-  padding-bottom: 15rem; 
+  padding-bottom: 15rem;
 }
 
 .bg-mobiFace {
@@ -84,7 +93,7 @@ section h2 {
   background: url("../img/mobifacePage0.png") center;
   background-size: cover;
   padding-top: 10rem;
-  padding-bottom: 15rem; 
+  padding-bottom: 15rem;
 }
 
 .bg-play {
@@ -92,7 +101,7 @@ section h2 {
     background: url("../img/example.png") center;
     background-size:auto;
   padding-top: 10rem;
-  padding-bottom: 15rem; 
+  padding-bottom: 15rem;
 }
 
 .bg-profile {
@@ -100,7 +109,7 @@ section h2 {
     background: url("../img/profile.jpg") center;
     background-size:cover;
   padding-top: 10rem;
-  padding-bottom: 15rem; 
+  padding-bottom: 15rem;
 }
 
 .center {
@@ -155,7 +164,7 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #mainNav .navbar-nav {
@@ -166,15 +175,51 @@ section h2 {
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: white;
   font-size: 1.2rem;
+  padding-left: 2.5rem;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: deepskyblue;
 }
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.social-media {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
 
 /*
- Picture lisence: all pictures obtained are from www.pixbay.com where every downloadable picture is allowed to be used unlimited. 
+ Picture license: all pictures obtained are from www.pixbay.com where every downloadable picture is allowed to be used unlimited.
  */
 
 
