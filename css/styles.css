@@ -37,7 +37,7 @@ h6 {
 
 .Title-subpages {
     padding-top: 2rem;
-    padding-bottom: 9rem;
+    padding-bottom: 10rem;
 }
 
 
@@ -65,7 +65,7 @@ section h2 {
 .img {
     height: 100%;
     width: 100%;
-    border-radius: 50%;
+    border-radius: 15%;
 }
 
 .bg0 {
@@ -99,7 +99,7 @@ section h2 {
 .bg-play {
     position: relative;
     background: url("../img/example.png") center;
-    background-size:auto;
+    background-size: cover;
   padding-top: 10rem;
   padding-bottom: 15rem;
 }
@@ -114,7 +114,7 @@ section h2 {
 
 .bg-vision {
     position: relative;
-    background: url("../img/vision.jpg") center;
+    background: url("https://www-file.huawei.com/-/media/CORPORATE/Images/Magazine/WinWin/augmented-innovation/ww-se-ai-4-computer-vision-2.jpg?la=en") center;
     background-size:cover;
   padding-top: 10rem;
   padding-bottom: 15rem;
@@ -159,16 +159,9 @@ section h2 {
 }
 
 
-.portfolio {
+.portfolio { 
   margin-bottom: -15px;
-  padding-bottom: 5rem;
-}
-
-.portfolio .portfolio-item {
-  position: relative;
-  display: block;
-  max-width: 25rem;
-  margin-bottom: 15px;
+  padding-bottom: 15rem;
 }
 
 
