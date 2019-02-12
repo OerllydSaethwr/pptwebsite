@@ -12,6 +12,20 @@ h6 {
   font-family: 'Montserrat';
 }
 
+.titles {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 3rem;
+}
+
+.titles1 {
+    padding-bottom: 2rem;
+}
+
+.subtitle {
+    padding-bottom: 5rem;
+}
+
 .Title-subpages {
     padding-top: 2rem;
     padding-bottom: 9rem;
