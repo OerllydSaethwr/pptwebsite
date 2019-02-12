@@ -242,6 +242,23 @@ section h2 {
     padding-bottom: 5%;
 }
 
+.play-img {
+    height: 700px;
+    display: block;
+}
+
+.col-lg-12:hover .play-img {
+    display: none;
+}
+
+.play-video {
+    display: none;
+}
+
+.col-lg-12:hover .play-video {
+    display: block;
+}
+
 
 /*
  Picture license: all pictures obtained are from www.pixbay.com where every downloadable picture is allowed to be used unlimited.
