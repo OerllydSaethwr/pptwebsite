@@ -50,25 +50,25 @@
       <div>
         <h1 class="titles text-center">Let's see what we can do with Mobiface!
         </h1>
-          <br>
-          <h3 class="text-center">
-              <br>
-              Try tracking the face with the cursor!
+          <h3 class="text-center" style="padding-bottom: 2rem;">
+              Draw a box around the face and click play!
           </h3>
       </div>
           <div class="row">
               <div class="col-lg-12">
-                  <img id="firstFrame" class="center play-img" src="img/firstframe.png" hidden>
-                  <canvas id="imageView" class="center" style="height: 700px;"><p>Canvas is unsupported by your browser.</p>
+                  <img id="firstFrame" class="center" src="img/firstframe.png" hidden>
+                  <canvas id="imageView" class="center"><p>Canvas is unsupported by your browser.</p>
                   </canvas>
-                  <video class="center play-video" height="700" controls>
-                      <source src="video/video.mp4" id="play-video">
+                  <video id="video" class="center" controls>
+                      <source src="video/video.mp4">
                   </video>
               </div>
           </div>
-    <div class="container">
+    <div style="padding: 2rem;">
+        <button id="playButton" class="center" onclick="play(this)">Play!</button>
+    </div>
+    <div class="container" id="cont">
         <h4 class="content">
-            <br></br>
             <p>
                 Above, you can see Mobile Face Tracking in action. This is a demonstration of the accuracy the neural network has attained. Originally, before large quantities of relevant data was input, the AI would have struggled to identify any faces in any scenes.</p>
             <p>This achievement is testament to the ability of AI’s to learn when provided with sufficient quality data, and to the hard work of Yiming in his pursuit of  his goal of Mobile Face Tracking.</p>

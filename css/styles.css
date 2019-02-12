@@ -248,17 +248,33 @@ section h2 {
     padding-bottom: 5%;
 }
 
-.play-img {
+#firstFrame {
     width: 100%;
     display: block;
 }
 
-.play-video {
+#imageView {
+    height: 550px;
+    display: block;
+}
+
+#video {
+    height: 550px;
     display: none;
 }
 
-#imageView {
+#playButton {
+    padding: 25px 72px;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 4px;
+}
 
+#playButton:hover {
+    background-color: blue;
+    transition-duration: 0.3s;
+    color: white;
 }
 
 
