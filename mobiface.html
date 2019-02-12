@@ -14,13 +14,15 @@
 
     <link href="css/styles.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
 
   <body>
     <!-- Navigation bar-->
     <nav class="navbar navbar-expand-lg bg1 fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <a class="Home" href="index.html">
+        <a class="Home nav-link" href="index.html">
             Home
         </a>
         <div>
@@ -44,20 +46,81 @@
 
 <header class="Title-subpages">
       <div class="container">
-      <h1 class="titles">MobiFace</h1>
-          <h5><a href="https://mobiface.github.io/">Link to Mobiface.io</a></h5>
-          <br>
-      <h4 class="content">
-    <p>Yiming and his team have gathered material and created a publicly available database of smartphone recorded selfie-style videos, intended to serve as the backbone of machine learning based face tracking algorithms.  
-    <p>The database includes a whopping 95,635 frames, with a bounding box of the face “manually labelled” on each frame. Out of hundreds of available mobile recordings 80 videos were carefully selected based on various criteria such as the ratio of the time in which the face remains in the frame, the speed of camera movement or the extremity of lighting conditions. This ensures that the selected clips provide valuable and realistic content.
-    </p> 
-    <p>Regular object tracking is cannot be sufficiently applied for software implementations that require face tracking on mobile devices due to the unpredictability of certain factors, 4 of which are highlighted in Yiming’s paper.
-    </p>
-    <p>First, face sizes in self recorded mobile videos can change drastically as both the device and its target are in constant movement, opposed to remaining still as for example desktop web cameras do. This continuous and quick change of position and location also raises the possibility of the target leaving and reentering the frame multiple times. The face tracking engine must recognise this, as well as keep up with fast camera movement. Additionally, it is not uncommon for more than one face to be present in a single frame, and it is essential that the algorithm differentiates and keeps track of each individually.
-    </p>
-    <p>It is important for researchers to receive feedback and recognition from the international academic and scientific community, which helps them with future progress. MobiFace has been accepted by 14th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2019). This annual/biannual conference takes place in France in 2019, and researchers get a chance to broadcast their findings to the community via demos, presentations and exhibitions.
-    </p>
-      </h4>
+          <div class="row">
+              <div class="col-lg-12">
+                  <h1 class="titles">MobiFace</h1>
+              </div>
+          </div>
+      <div class="row">
+          <h4 class="text-mobiface content text-justify">
+              <br>
+              Yiming and his team have gathered material and created a publicly available database of
+              smartphone recorded selfie-style videos, intended to serve as the backbone of machine
+              learning based face tracking algorithms.
+          </h4>
+      </div>
+      <div class="row">
+          <div class="col-lg-8">
+              <h4 class="text-mobiface content text-justify">
+                  The database includes a whopping 95,635 frames, with a bounding box of the face
+                  “manually labelled” on each frame. Out of hundreds of available mobile recordings, 80
+                  videos were carefully selected based on various criteria such as the ratio of the time
+                  in which the face remains in the frame, the speed of camera movement or the extremity of
+                  lighting conditions. This ensures that the selected clips provide valuable and realistic content.
+              </h4>
+
+          </div>
+          <div class="col-lg-4">
+              <img class="img-resize" src="img/mobiface1.png">
+          </div>
+      </div>
+      <div class="row">
+          <h4 class="content text-justify">
+              Regular object tracking cannot be sufficiently applied for software implementations
+              that require face tracking on mobile devices due to the unpredictability of certain factors,
+              4 of which are highlighted in Yiming’s paper.<br><br><br>
+          </h4>
+      </div>
+      <div class="row">
+          <div class="col-lg-4">
+              <img class="img-resize" src="img/mobiface2.png">
+          </div>
+          <div class="col-lg-8">
+              <h4 class="text-mobiface content text-justify">
+                  First, face sizes in self-recorded mobile videos can change drastically as both the device
+                  and its target are in constant movement, unlike for example desktop web cameras, which remain
+                  still most of the time. This continuous and quick change of position and location also raises the possibility
+                  of the target leaving and reentering the frame multiple times.
+              </h4>
+          </div>
+      </div>
+      <div class="row">
+          <h4 class="text-mobiface content text-justify">
+              The face tracking engine must recognise
+              this, as well as keep up with fast camera movement. Additionally, it is not uncommon for more than one
+              face to be present in a single frame, and it is essential that the algorithm differentiates and keeps
+              track of each individually.
+          </h4>
+      </div>
+      <div class="row">
+          <div class="col-lg-8">
+              <h4 class="text-mobiface content text-justify">
+                  It is important for researchers to receive feedback and recognition from the international
+                  academic and scientific community, which helps them with future progress. MobiFace has been
+                  accepted by the 14th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2019).
+                  This annual/biannual conference takes place in France in 2019, where researchers will get a chance to
+                  broadcast their findings to the community via demos, presentations and exhibitions.
+              </h4>
+          </div>
+          <div class="col-lg-4">
+              <img class="img-resize" src="img/mobiface3.png">
+          </div>
+      </div>
+          <a href="https://mobiface.github.io/">
+              <h2 class="mobiface.io text-left content text-uppercase" align="center">
+                  <br>Mobiface.io
+              </h2>
+          </a>
       </div>
       </header>
     
@@ -65,15 +128,31 @@
 
     <!-- Footer -->
     <footer class="footer text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">Imperial College London
-              <br>South Kensington Campus
-London SW7 2AZ</p>
-          </div>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>Imperial College London</h2>
+                    <p>
+                        South Kensington Campus<br>
+                        SW7 2AZ
+                    </p>
+                </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <ul class="social-media">
+                        <li class="social-media">
+                            <a class="fa fa-facebook text-center" href="https://www.facebook.com/imperialcollegelondon/"></a>
+                        </li>
+                        <li class="social-media">
+                            <a class="fa fa-twitter text-center" href="https://twitter.com/yiming_lin__"></a>
+                        </li>
+                        <li class="social-media">
+                            <a class="fa fa-linkedin text-center" href="#"></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
         </div>
     </footer>
 

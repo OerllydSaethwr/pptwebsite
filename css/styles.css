@@ -145,6 +145,11 @@ section h2 {
     font-size: 2rem;
 }
 
+.Home:hover {
+    color: darkblue;
+    transition-duration: 0.3s;
+}
+
 
 .portfolio {
   margin-bottom: -15px;
@@ -180,6 +185,7 @@ section h2 {
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: deepskyblue;
+  transition-duration: 0.3s;
 }
 
 .fa {
@@ -215,6 +221,17 @@ section h2 {
     margin: 0;
     padding: 0;
     display: inline;
+}
+
+.img-resize {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 0;
+    padding-bottom: 12.5%;
+}
+
+.text-mobiface {
+    padding-bottom: 5%;
 }
 
 
