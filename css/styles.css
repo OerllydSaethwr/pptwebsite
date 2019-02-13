@@ -120,6 +120,14 @@ section h2 {
   padding-bottom: 15rem;
 }
 
+.bg-future {
+    position: relative;
+    background: url("https://www.doc.ic.ac.uk/~dmv18/img/future.jpg") center;
+    background-size:cover;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+}
+
 .center {
     margin-left: auto;
     margin-right: auto;
